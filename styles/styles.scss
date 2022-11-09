@@ -1,0 +1,11 @@
+//generales
+@import './base/base';
+@import './base/settings';
+@import './base/fonts';
+
+//componentes
+@import './components/login';
+@import './components/sidebar';
+@import './components/footer.scss';
+@import './components/spinner.scss';
+@import './components/softwareProject';

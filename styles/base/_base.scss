@@ -1,0 +1,313 @@
+* {
+  font-family: "Euclid-Circular-Regular";
+
+  ::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #909497;
+    border-radius: 16px;
+  }
+}
+
+
+table {
+
+  text-align: center !important;
+}
+
+
+
+th,
+thead {
+  text-align: center !important;
+}
+
+.btn-table {
+
+  margin: auto;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  padding: 5px;
+  margin: 0px 4px;
+  border: none;
+  background-color: orange;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+.btn-table:hover {
+  background-color: rgb(228, 149, 3);
+}
+
+
+.btn-modal {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  top: 26px;
+  background: linear-gradient(220.55deg, #FFD439 0%, #FF7A00 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 100ms ease;
+}
+
+.selector-1 {
+  background-color: white;
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  margin-top: 10px;
+  overflow: hidden;
+  transition: 500ms ease;
+}
+
+.selector-2 {
+  background-color: white;
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  margin-top: 10px;
+  overflow: hidden;
+  transition: 500ms ease;
+}
+
+.lista>li {
+  transition: 200ms ease;
+  cursor: pointer;
+
+}
+
+
+.lista>li:hover {
+  border-radius: 5px;
+  padding: 5px;
+  /* From https://css.glass */
+  background: rgba(177, 175, 175, 0.623);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+
+.cardMetodo {
+  background-color: #FDEEDC;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.vista-botones {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-actions {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(220.55deg, #FFD439 0%, #FF7A00 100%);
+  cursor: pointer;
+}
+
+.lista-modal-1 {
+
+  background-color: white;
+  position: absolute;
+  top: 343px;
+  left: 28px;
+  padding: 5px;
+  z-index: 5;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  flex-direction: column;
+  overflow: hidden;
+  width: 240px;
+}
+
+.lista-modal-2 {
+
+  background-color: white;
+  position: absolute;
+  top: 430px;
+  left: 28px;
+  padding: 5px;
+  z-index: 5;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  flex-direction: column;
+  overflow: hidden;
+  width: 240px;
+  height: auto;
+}
+
+
+.lista-modal-3 {
+
+  background-color: white;
+  position: absolute;
+  top: 515px;
+  left: 28px;
+  padding: 5px;
+  z-index: 5;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  flex-direction: column;
+  overflow: hidden;
+  width: 240px;
+  height: auto;
+}
+
+
+.lista-modal-4 {
+
+  background-color: white;
+  position: absolute;
+  top: 515px;
+  right: 28px;
+  padding: 5px;
+  z-index: 5;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  flex-direction: column;
+  overflow: hidden;
+  width: 240px;
+  height: auto;
+}
+
+.lista-modal-5 {
+
+  background-color: white;
+  position: absolute;
+  top: 600px;
+  left: 28px;
+  padding: 5px;
+  z-index: 5;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  flex-direction: column;
+  overflow: hidden;
+  width: 500px;
+  height: auto;
+}
+
+.lista-foren-key {
+  background-color: white;
+  position: absolute;
+  top: 262px;
+  padding: 5px;
+  z-index: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.lista-modal-1>span {
+
+  margin-top: 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px;
+  transition: 300ms ease;
+}
+
+.lista-modal-2>span {
+
+  margin-top: 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px;
+  transition: 300ms ease;
+}
+
+.lista-modal-3>span {
+
+  margin-top: 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px;
+  transition: 300ms ease;
+}
+
+.lista-modal-4>span {
+
+  margin-top: 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px;
+  transition: 300ms ease;
+}
+
+.lista-modal-5>span {
+
+  margin-top: 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px;
+  transition: 300ms ease;
+}
+
+.lista-foren-key>span {
+
+  margin-top: 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px;
+  transition: 300ms ease;
+}
+
+
+
+.lista-modal-1>span:hover {
+  background-color: #F1F1F1;
+}
+
+.lista-modal-2>span:hover {
+  background-color: #F1F1F1;
+}
+
+.lista-modal-3>span:hover {
+  background-color: #F1F1F1;
+}
+
+.lista-modal-4>span:hover {
+  background-color: #F1F1F1;
+}
+
+.lista-modal-5>span:hover {
+  background-color: #F1F1F1;
+}
+
+.lista-foren-key>span:hover {
+  background-color: #F1F1F1;
+}
+
+.icono {
+  background-color: #B7C4CF;
+  cursor: pointer !important;
+  border-radius: 5px;
+}

@@ -1,0 +1,163 @@
+.container-sidebar {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ced0ce;
+    overflow: hidden;
+}
+
+.caja-glass {
+    /* From https://css.glass */
+    background: #bcbdbc;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    position: fixed;
+    width: 80px;
+    height: 600px;
+    margin-left: 10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.caja-imagen {
+    position: absolute;
+    width: 50px;
+    height: 600px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.lista-iconos {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    right: 4px;
+}
+
+.select {
+    -webkit-box-shadow: 0px 0px 11px 6px rgba(106, 106, 106, 0.5);
+    box-shadow: 0px 0px 11px 6px rgba(106, 106, 106, 0.5);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    position: relative;
+    transition: 400ms ease-in-out;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo-siderbar {
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    padding: 3px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    position: absolute;
+    top: 90%;
+    z-index: 3;
+    margin: auto;
+}
+
+.item-list {
+    z-index: 3;
+}
+
+.icono-list {
+    position: absolute;
+    top: 55px;
+    z-index: 5;
+}
+
+.content {
+    background-color: orange;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.card-tema {
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 10;
+}
+
+
+.moduleLayout__container {
+    position: relative;
+    left: 50px;
+    width: 90%;
+    height: 80%;
+    margin: 50px auto;
+    backdrop-filter: blur(1.5px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+}
+
+
+@media (max-width:"1137px") {
+    .moduleLayout__container {
+        width: 70%;
+    }
+}
+
+
+@media (max-width:"423px") {
+    .caja-glass {
+        width: 50px;
+    }
+
+    .moduleLayout__container {
+        width: 100%;
+
+    }
+
+
+
+}

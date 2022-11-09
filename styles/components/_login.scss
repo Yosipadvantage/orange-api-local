@@ -1,0 +1,50 @@
+.login__titulo {
+    font-family: "Euclid-Circular-Medium";
+    font-size: 40px;
+}
+
+.login__CardLoginGlass {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.42);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container-login {
+
+
+    background-color: #F9F9F9;
+    height: 100vh;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+}
+
+.card-login-glass {
+
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+
+}
+
+.imagen-login {
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 160px;
+    height: 150px;
+    padding: 10px;
+
+
+}

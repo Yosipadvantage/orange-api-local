@@ -1,0 +1,54 @@
+.btn-menu {
+    background-color: #F8EDE3;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3px;
+    margin: 0px 5px;
+}
+
+.btn-menu-disable {
+    background-color: #f8ede3a4;
+    color: rgb(196, 194, 194);
+    border: none;
+    border-radius: 3px;
+    margin: 0px 5px;
+}
+
+.lista-data-base {
+
+    background-color: white;
+    position: absolute;
+    top: 165px;
+    width: 165px;
+    height: auto;
+    border-radius: 3px;
+    flex-direction: column;
+    gap: 2px;
+    padding: 5px;
+    z-index: 5;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+    box-shadow: 0px 1px 2px 1px rgba(145, 145, 145, 0.38);
+}
+
+
+.lista-data-base>span {
+
+    margin-top: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px;
+    transition: 300ms ease;
+}
+
+
+.lista-data-base>span:hover {
+    background-color: #F1F1F1;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
